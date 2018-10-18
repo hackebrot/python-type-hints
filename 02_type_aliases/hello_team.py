@@ -16,8 +16,12 @@ def hello_team(team: Team) -> str:
 
 
 if __name__ == "__main__":
-    print(
-        hello_team(
-            [Person("Audrey"), Person("Danny"), Person("Michael"), Person("Raphael")]
-        )
-    )
+
+    team = [
+        Person("Audrey"),
+        Person("Danny"),
+        Person("Michael"),
+        Person("Raphael"),
+    ]
+
+    print(hello_team(team))
